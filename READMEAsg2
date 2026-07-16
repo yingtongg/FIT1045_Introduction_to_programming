@@ -1,0 +1,60 @@
+Assignment Results
+Mark: 29.52 of 30 (HD)
+Days late: 0 (-0%)
+Correct submission: Yes (1)
+
+Marked by: Qiuhong Ke
+
+Automarker Results (15/15)
+Tasks 1-3
+T1: 2 / 2
+T2: 2 / 2
+T3: 1 / 1
+
+Tasks 4-6
+T4: 2 / 2
+T5: 2 / 2
+T6: 1 / 1
+
+Tasks 7-9
+T7: 2 / 2
+T8: 1.5 / 1.5
+T9: 1.5 / 1.5
+
+Checkpoint Results (1.916666667/2)
+Checkpoint 1
+T1: 100%
+T2: 100%
+T3: 100%
+
+Checkpoint 2
+T4: 100%
+T5: 75%
+T6: 100%
+
+TA Review (11.6/12)
+Marked by: Qiuhong Ke
+
+Tasks 1-3
+Documentation: Satisfactory
+Comments: Excellent
+Variable Naming: Excellent
+Readability: Excellent
+Feedback: The code has docstrings for most functions, which is excellent for clarity. But there is no type hints for function input. Several functions contain repeated code for checking if names exist in the rabbit database. This could be refactored into a helper function that checks and adds a name if it doesn't exist, reducing redundancy and enhancing maintainability.
+
+Tasks 4-6
+Documentation: Satisfactory
+Comments: Excellent
+Variable Naming: Excellent
+Readability: Excellent
+Feedback: As above, there is no type hints for function input. There are multiple instances of similar code, especially when extracting variables from the code and checking if a word is valid. Functions like listing, format_variables, and rename contain repeated logic for variable extraction. Consider creating a utility function to consolidate this code, reducing redundancy and improving maintainability.
+
+Tasks 7-9
+Documentation: Excellent
+Comments: Excellent
+Variable Naming: Excellent
+Readability: Excellent
+Feedback: As above, there is a repetitive pattern in the way table indices are validated across multiple functions (e.g., display, duplicate, create, and delete_table). To improve this, consider creating a helper function, such as validate_index, that checks if the index is valid and can be reused throughout your functions. This will enhance maintainability and reduce code duplication.
+
+TA Comment
+Overall, the code provides informative documentations and comments. It can be improved by reducing repetition.
